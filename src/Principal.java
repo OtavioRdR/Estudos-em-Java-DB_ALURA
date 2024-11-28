@@ -15,5 +15,9 @@ public class Principal {
         System.out.println(meuFilme.somaDasAvaliacao);
         System.out.println(meuFilme.totalAvaliacoes);
         System.out.println(meuFilme.pegaMedia());
+        meuFilme.somaDasAvaliacao = 10;
+        meuFilme.totalAvaliacoes = 1;
+        System.out.println("Alterando a soma Mostrando alterção interna: " + meuFilme.somaDasAvaliacao);
+        System.out.println("Mudando a soma: " + meuFilme.totalAvaliacoes);
     }
 }
